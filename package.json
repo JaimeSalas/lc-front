@@ -1,0 +1,30 @@
+{
+  "name": "lc-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaimeSalas/lc-front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaimeSalas/lc-front/issues"
+  },
+  "homepage": "https://github.com/JaimeSalas/lc-front#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-healthcheck": "^0.1.0",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "chance": "^1.1.7"
+  }
+}
