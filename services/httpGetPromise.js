@@ -2,7 +2,7 @@ const http = require('http');
 
 module.exports.httpGetPromise = (url) => () => new Promise((resolve, reject) => {
   let responseData = '';
-  http.get(ageServiceUrl, (res) => {
+  http.get(url, (res) => {
     res.on('data', (chunk) => {
       responseData += chunk;
     });
