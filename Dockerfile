@@ -8,5 +8,5 @@ COPY . .
 
 RUN npm i --only=production
 
-CMD [ "bash", "/usr/src/app/startup.sh" ]
+CMD [ "npm", "start" ]
 
